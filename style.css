@@ -48,6 +48,10 @@ body {
     opacity: .55;
 }
 
+#img-edit:hover {
+    opacity: 1;
+}
+
 .img-insert {
     background-image: url('//web.archive.org/web/20191130234759im_/https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
     height: 30px;
@@ -74,15 +78,20 @@ main {
 }
 
 #google-logo {
-    margin-top: 70px;
+    margin-top: 140px;
 }
 
 #search-box {
-    width: 500px;
+    width: 550px;
     margin: 40px 0px 20px 0;
     border-radius: 20px;
-    border-style: double;
-    height: 35px;
+    border-style: none;
+    height: 40px;
+    box-shadow: 0px 0px 1px rgba(0,0,0, 0.5);
+}
+
+#search-box:hover {
+    box-shadow: 0px 2px 5px rgba(0,0,0, 0.7);
 }
 
 .search-button {
@@ -93,6 +102,12 @@ main {
     border-radius: 5px;
     padding: 8px 18px;
     font-size: 0.8rem;
+}
+
+.search-button:hover {
+    box-shadow: 0px 1px 2px rgba(0,0,0, 0.2);
+    background: linear-gradient(90deg,#f8f8f8,#f1f1f1);
+    border: 1px solid #c6c6c6;
 }
 
 #button-layout {
