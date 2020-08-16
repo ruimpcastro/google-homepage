@@ -10,7 +10,7 @@ body {
 #navbar {
     display: flex;
     flex-direction: row;
-    height: 45px;
+    height: 60px;
     justify-content: space-between;
     align-items: center;
 }
@@ -26,8 +26,9 @@ body {
     display: flex;
     flex-direction: row;
     font-size: 0.9rem;
-    padding: 10px 15px;
+    padding: 10px;
     align-items: center;
+    margin-top: 30px;
 }
 
 .navbar-list li a {
@@ -51,4 +52,14 @@ body {
     height: 30px;
     width: 30px;
     background-position: -132px -38px;
+}
+
+#navbar-button {
+    color: white;
+    border: 1px solid #4285f4;
+    background: #4285f4;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 6px 12px;
+    font-size: 0.8rem;
 }
