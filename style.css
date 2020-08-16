@@ -1,5 +1,39 @@
-body {
+* {
     margin: 0;
+}
+
+body {
     font-size: 10px;
     font-family: arial,sans-serif;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    justify-content: space-between;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 10px;
+}
+
+.navbar-list li {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.9rem;
+    padding: 10px 20px;
+}
+
+.navbar-list li a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.navbar-list li a:hover {
+    text-decoration: underline;
+    color: inherit;
 }
