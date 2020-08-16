@@ -14,3 +14,5 @@ I will apply all of my skills learned until now wich involve knowing the followi
 
 Everything including hovers working as it should.
 The hardest thing to implement were the icons on the input box where I hard coded it into position.
+
+# This webpage is not responsive
