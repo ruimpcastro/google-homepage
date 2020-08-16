@@ -12,6 +12,7 @@ body {
     flex-direction: row;
     height: 45px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navbar-list {
@@ -26,6 +27,7 @@ body {
     flex-direction: row;
     font-size: 0.9rem;
     padding: 10px 15px;
+    align-items: center;
 }
 
 .navbar-list li a {
