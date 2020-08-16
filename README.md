@@ -12,5 +12,5 @@ I will apply all of my skills learned until now wich involve knowing the followi
 
 * Knowing the navbar structure;
 
-* Making a website responsive.
-
+Everything including hovers working as it should.
+The hardest thing to implement were the icons on the input box where I hard coded it into position.
