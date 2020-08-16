@@ -110,7 +110,7 @@ main {
     border-style: none;
     height: 40px;
     box-shadow: 0px 0px 1px rgba(0,0,0, 0.5);
-    padding-left: 0 35px;
+    padding: 0 35px;
 }
 
 #search-box:hover {
@@ -166,6 +166,7 @@ footer {
     list-style: none;
     padding: 2px 5px;
     margin: 0 15px;
+    text-transform: capitalize;
 }
 
 .footer-navbar-list li {
