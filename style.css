@@ -81,21 +81,7 @@ main {
     margin-top: 120px;
 }
 
-#search-box {
-    width: 550px;
-    margin: 40px 0px 20px 0;
-    border-radius: 20px;
-    border-style: none;
-    height: 40px;
-    box-shadow: 0px 0px 1px rgba(0,0,0, 0.5);
-    padding-left: 35px;
-}
-
-#search-box:hover {
-    box-shadow: 0px 2px 5px rgba(0,0,0, 0.7);
-}
-
-span {
+#magnifier {
     position: absolute;
     width: 20px;
     height: 20px;
@@ -104,6 +90,31 @@ span {
     justify-content: center;
     color: #9AA0A6;
     fill: currentColor;
+}
+
+#micro {
+    display: flex;
+    margin: 47px 0px 0px 515px;
+    position: absolute;
+    background: url('//web.archive.org/web/20191130234759im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png') 0 0 no-repeat;
+    background-size: auto;
+    height: 24px;
+    width: 24px;
+    background-size: 24px
+}
+
+#search-box {
+    width: 550px;
+    margin: 40px 0px 20px 0;
+    border-radius: 20px;
+    border-style: none;
+    height: 40px;
+    box-shadow: 0px 0px 1px rgba(0,0,0, 0.5);
+    padding-left: 0 35px;
+}
+
+#search-box:hover {
+    box-shadow: 0px 2px 5px rgba(0,0,0, 0.7);
 }
 
 .search-button {
