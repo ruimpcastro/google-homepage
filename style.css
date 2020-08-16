@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -79,6 +80,14 @@ main {
 #button-layout {
     display: flex;
     flex-direction: row;
+}
+
+#search-box {
+    width: 500px;
+    margin: 15px 0;
+    border-radius: 20px;
+    border-style: double;
+    height: 35px;
 }
 
 .search-button {
